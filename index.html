@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/icons/font/bootstrap-icons.min.css">
+	<!-- Slick CSS -->
+	<link rel="stylesheet" href="assets/slick/slick.css">
+	<link rel="stylesheet" href="assets/slick/slick-theme.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<!-- My Style -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<!-- Navbar Start -->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+		<div class="container-fluid">
+			<a class="navbar-brand text-uppercase fw-bold" href="index.html">MyShop</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Categories
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="women.html">Women</a></li>
+							<li><a class="dropdown-item" href="men.html">Men</a></li>
+							<li><a class="dropdown-item" href="kids.html">Kids</a></li>
+							<li><a class="dropdown-item" href="new.html">New</a></li>
+							<li><a class="dropdown-item" href="apparels.html">Apparels</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+
+				<form class="d-flex" role="search">
+					<input class="form-control rounded-0 rounded-start-pill" type="search" placeholder="Search here..." aria-label="Search">
+					<button class="btn btn-dark rounded-0 rounded-end-pill" type="submit"><i class="bi bi-search"></i></button>
+				</form>
+
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<button type="button" class="nav-link position-relative mx-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+							<i class="bi bi-bag"></i>
+							<span class="position-absolute top-10 start-100 translate-middle badge rounded-pill bg-danger">
+								3
+								<span class="visually-hidden">unread messages</span>
+							</span>
+						</button>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link rounded-pill" href="signIn.html" id="btn-signin"><i class="bi bi-box-arrow-in-right"></i> SignIn</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+	<!-- Navbar End -->
+
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<!-- Sidebar Start -->
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="sidebar mt-5">
+					<form class="d-flex" role="search">
+						<input class="form-control rounded-0 rounded-start-pill" type="search" placeholder="Search here..." aria-label="Search">
+						<button class="btn btn-dark rounded-0 rounded-end-pill" type="submit"><i class="bi bi-search"></i></button>
+					</form>
+
+					<div class="mt-5 d-flex justify-content-between align-items-center">
+						<h5>Filter</h5>
+						<button type="reset" class="btn btn-dark">Reset</button>
+					</div>
+
+
+					<div class="mt-4">
+						<h6>Categories</h6>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="men">
+							<label class="form-check-label" for="women">
+								Women
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="men">
+							<label class="form-check-label" for="men">
+								Men
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="kids">
+							<label class="form-check-label" for="kids">
+								Kids
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="new">
+							<label class="form-check-label" for="New">
+								New
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="apparels">
+							<label class="form-check-label" for="apparels">
+								Apparels
+							</label>
+						</div>
+					</div>
+
+					<div class="mt-4">
+						<h6>Women</h6>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Ballerina
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Casual Shoes
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Chappals
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+							Flipflop
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+							Saandals
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+							Sports
+							</label>
+						</div>
+					</div>
+
+					<div class="mt-4">
+						<h6>Men</h6>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								casual shoes
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Chappal & Filipflops
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Formal Shoes
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Loffers & Moccassin
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Sandals & Floater
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Sports
+							</label>
+						</div>
+					</div>
+
+					<div class="mt-4">
+						<h6>Kids</h6>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+							Boys
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Girls
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+							Infant
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								School
+							</label>
+						</div>
+					</div>
+
+					<div class="mt-4">
+						<h6>New</h6>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Shoes
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Bag
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Accessories
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Apparels
+							</label>
+						</div>
+					</div>
+
+					<div class="mt-4">
+						<h6>Apparels</h6>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Joggers & Bottoms
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+							Shorts
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								T-Shirt & Polos
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								Tights
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Sidebar End -->
+
+			
+			<div class="col-lg-9 col-md-8 col-sm-12">
+				<!-- Slider Start -->
+				<div class="slider-area mt-5">
+					<div id="carouselExampleCaptions" class="carousel slide">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="assets/images/slider/s-1.jpg" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+									<h5 class="text-black">First slide label</h5>
+									<p class="text-black">Some representative placeholder content for the first slide.</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="assets/images/slider/s-2.jpg" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+									<h5 class="text-black">Second slide label</h5>
+									<p class="text-black">Some representative placeholder content for the second slide.</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="assets/images/slider/s-3.jpg" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+									<h5 class="text-black">Third slide label</h5>
+									<p class="text-black">Some representative placeholder content for the third slide.</p>
+								</div>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+				<!-- Slider End -->
+
+
+
+
+				<!-- Main Content Start -->
+				<div class="main-content">
+					<div class="row g-2 mt-5">
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<div class="text-start position-absolute mx-1">
+									<span class="badge text-bg-danger rounded-0">-13%</span>
+								</div>
+								<img src="assets/images/women/all/a3.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">SHB Black Label</a>
+									</h5>
+									<div class="card-text">
+										<p>MRP 1490.00Tk
+											<br><del>MRP 1650 Tk</del></p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+
+
+
+
+
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/women/all/a5.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">NATURALIZER </a>
+									</h5>
+									<div class="card-text">
+										<p>MRP 2280.00 TK</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/women/all/a7.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">MARIE CLAIRE </a>
+									</h5>
+									<div class="card-text">
+										<p>MRP 2290.00 TK </p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<div class="text-start position-absolute mx-1">
+									<span class="badge text-bg-danger rounded-0">-18%</span>
+								</div>
+								<img src="assets/images/women/all/a8.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">NORTH STAR</a>
+									</h5>
+									<div class="card-text">
+										<p>1280TK<br><del>MRP 1300.00 Tk</del></p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+
+
+
+
+
+
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/women/all/a9.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">POWER</a>
+									</h5>
+									<div class="card-text">
+										<p>MRP 1700 TK</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+
+
+
+
+
+
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/women/all/w-6.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">MARIE CLAIRE </a>
+									</h5>
+									<div class="card-text">
+										<p>MRP 1050 Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+
+
+
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/women/all/w1.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">NORTH STAR</a>
+									</h5>
+									<div class="card-text">
+										<p> MRP 1380 TK</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+
+
+
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/women/chandels/c-14.jpeg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">HUSH PUPPIES </a>
+									</h5>
+									<div class="card-text">
+										<p>MRP 1830 TK</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/women/chandels/c-12.jpeg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">FLOATZ</a>
+									</h5>
+									<div class="card-text">
+										<p> MRP 2500 Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+
+
+
+
+
+
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/women/chandels/c-5.jpeg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">BATA </a>
+									</h5>
+									<div class="card-text">
+										<p>MRP 1600 Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+
+
+
+
+
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/women/chandels/c-6.jpeg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">HUSH PUPPIES </a>
+									</h5>
+									<div class="card-text">
+										<p>MRP 1250 Tk (kg)</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+
+
+
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/women/chandels/c-7.jpeg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">NATURALIZER  </a>
+									</h5>
+									<div class="card-text">
+										<p>MRP 1470 TK</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+
+
+						<!-- Pagination Start -->
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="pagination-area d-flex justify-content-center mt-4">
+								<nav aria-label="Page navigation example">
+									<ul class="pagination">
+										<li class="page-item">
+											<a class="page-link" href="#">Previous</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link active" href="#">1</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link" href="#">2</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link" href="#">3</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link" href="#">Next</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<!-- Pagination End -->
+
+
+
+
+						<!-- Popular Product Start-->
+						<div class="popular-product mt-5 mb-5">
+							<h2 class="fw-bold">Popular Product</h2>
+							<span>Performance: Whether you're hitting the gym, exploring the outdoors, or navigating city streets, our shoes offer versatile performance to keep up with your active lifestyle.</span>
+							<div class="row mt-4">
+								<!-- Single -->
+								<div class="col-lg-3 col-md-4 col-sm-12">
+									<div class="card text-center">
+										<img src="assets/images/women/chandels/c-5.jpeg" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">
+												<a href="#">POWER </a>
+											</h5>
+											<div class="card-text">
+												<p>MRP 950 TK</p>
+												<div class="rating mb-2">
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-half"></i></span>
+												</div>
+											</div>
+											<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+										</div>
+									</div>
+								</div>
+								<!-- Single -->
+								<div class="col-lg-3 col-md-4 col-sm-12">
+									<div class="card text-center">
+										<div class="text-start position-absolute mx-1">
+											<span class="badge text-bg-danger rounded-0">-18%</span>
+										</div>
+										<img src="assets/images/women/chandels/c-3.jpeg" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">
+												<a href="#">SHB Black Label</a>
+											</h5>
+											<div class="card-text">
+												<p> MRP 2230 Tk <br><del>2400Tk</del></p>
+												<div class="rating mb-2">
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-half"></i></span>
+												</div>
+											</div>
+											<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+										</div>
+									</div>
+								</div>
+
+
+
+
+
+								<!-- Single -->
+								<div class="col-lg-3 col-md-4 col-sm-12">
+									<div class="card text-center">
+										<img src="assets/images/women/casual/cs-2.jpeg" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">
+												<a href="#">Kids Special</a>
+											</h5>
+											<div class="card-text">
+												<p> MRP 1360 Tk</p>
+												<div class="rating mb-2">
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-half"></i></span>
+												</div>
+											</div>
+											<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+										</div>
+									</div>
+								</div>
+
+
+
+								<!-- Single -->
+								<div class="col-lg-3 col-md-4 col-sm-12">
+									<div class="card text-center">
+										<img src="assets/images/women/casual/cs-11.jpeg" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">
+												<a href="#">FLOATZ</a>
+											</h5>
+											<div class="card-text">
+												<p> MRP 2500Tk</p>
+												<div class="rating mb-2">
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-half"></i></span>
+												</div>
+											</div>
+											<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+										</div>
+									</div>
+								</div>
+
+
+
+
+								<!-- Single -->
+								<div class="col-lg-3 col-md-4 col-sm-12">
+									<div class="card text-center">
+										<img src="assets/images/women/casual/cs-8.jpeg" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">
+												<a href="#">HUSH PUPPIES </a>
+											</h5>
+											<div class="card-text">
+												<p>1250 Tk</p>
+												<div class="rating mb-2">
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-half"></i></span>
+												</div>
+											</div>
+											<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+										</div>
+									</div>
+								</div>
+
+
+
+
+								<!-- Single -->
+								<div class="col-lg-3 col-md-4 col-sm-12">
+									<div class="card text-center">
+										<img src="assets/images/women/all/w1.jpg" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">
+												<a href="#">NORTH STAR</a>
+											</h5>
+											<div class="card-text">
+												<p>MRP 1380 Tk</p>
+												<div class="rating mb-2">
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-half"></i></span>
+												</div>
+											</div>
+											<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+										</div>
+									</div>
+								</div>
+
+
+
+
+
+								<!-- Single -->
+								<div class="col-lg-3 col-md-4 col-sm-12">
+									<div class="card text-center">
+										<img src="assets/images/women/all/a5.jpg" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">
+												<a href="#">MARIE CLAIRE</a>
+											</h5>
+											<div class="card-text">
+												<p>MRP 1850 Tk</p>
+												<div class="rating mb-2">
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-half"></i></span>
+												</div>
+											</div>
+											<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+										</div>
+									</div>
+								</div>
+
+
+
+
+								<!-- Single -->
+								<div class="col-lg-3 col-md-4 col-sm-12">
+									<div class="card text-center">
+										<img src="assets/images/women/all/a9.jpg" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">
+												<a href="#">Casual</a>
+											</h5>
+											<div class="card-text">
+												<p>MRP 1500 TK</p>
+												<div class="rating mb-2">
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-fill"></i></span>
+													<span><i class="bi bi-star-half"></i></span>
+												</div>
+											</div>
+											<a href="#" class="btn btn-dark"><i class="bi bi-cart2"></i> Add to Cart</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Popular Product End-->
+
+
+
+
+
+
+						<!-- Testimonial Start-->
+						<div class="testimonial-area mt-5 mb-5">
+							<h2 class="fw-bold">Testimonial</h2>
+							<span>"I recently discovered "MyShop" while searching Casual Shoes, and I must say, I was thoroughly impressed! Not only did they have exactly what I needed, but the entire browsing and purchasing process was smooth and hassle-free. The user-friendly interface made it easy to find what I was looking for, and the checkout process was quick and secure. </span>
+							<div class="row g-3 mt-5  responsive">
+								<!-- Single -->
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="t-box">
+										<div class="d-flex align-items-center gap-3">
+											<div class="photo">
+												<img src="assets/images/testimonial/p1.jpg" alt="">
+											</div>
+											<div class="d-flex justify-content-between flex-fill">
+												<div>
+													<h4>John Doe</h4>
+													<span>Designation</span>
+													<div class="rating mb-2">
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-half"></i></span>
+													</div>
+												</div>
+												<div>
+													<i class="bi bi-chat-right-quote-fill"></i>
+												</div>
+											</div>
+										</div>
+										<hr>
+										<p>"I've been a loyal customer of Myshop for years now, and I can't recommend them enough! Their seamless shopping experience, vast product selection, and lightning-fast delivery have kept me coming back time and time again. Plus, their customer service team is top-notch, always ready to assist with any inquiries or concerns. If you're looking for a hassle-free online shopping experience, look no further than MyShop!" - John Doe</p>
+									</div>
+								</div>
+
+
+
+
+								<!-- Single -->
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="t-box">
+										<div class="d-flex align-items-center gap-3">
+											<div class="photo">
+												<img src="assets/images/testimonial/p2.jpg" alt="">
+											</div>
+											<div class="d-flex justify-content-between flex-fill">
+												<div>
+													<h4>Michael L</h4>
+													<span>Designation</span>
+													<div class="rating mb-2">
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-half"></i></span>
+													</div>
+												</div>
+												<div>
+													<i class="bi bi-chat-right-quote-fill"></i>
+												</div>
+											</div>
+										</div>
+										<hr>
+										<p> "I stumbled upon "MyShop" while searching for a specific product, and I'm so glad I did! Not only did they have exactly what I was looking for, but their prices were unbeatable. I was also pleasantly surprised by how quickly my order arrived, even with standard shipping. I've since become a regular shopper and have recommended "MyShop" to all my friends and family. Trust me, you won't be disappointed!" - Michael L.</p>
+									</div>
+								</div>
+
+
+
+
+
+
+								<!-- Single -->
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="t-box">
+										<div class="d-flex align-items-center gap-3">
+											<div class="photo">
+												<img src="assets/images/testimonial/p1.jpg" alt="">
+											</div>
+											<div class="d-flex justify-content-between flex-fill">
+												<div>
+													<h4> Emily W</h4>
+													<span>Designation</span>
+													<div class="rating mb-2">
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-half"></i></span>
+													</div>
+												</div>
+												<div>
+													<i class="bi bi-chat-right-quote-fill"></i>
+												</div>
+											</div>
+										</div>
+										<hr>
+										<p>"As someone who's always on the hunt for unique finds, "MyShop" has become my go-to destination. I love discovering new brands and supporting small businesses through my purchases. Plus, their user-friendly interface and secure checkout process make shopping a breeze. If you're tired of the same old mainstream options, give "MyShop" a try—you won't regret it!" - Emily W.</p>
+									</div>
+								</div>
+								<!-- Single -->
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="t-box">
+										<div class="d-flex align-items-center gap-3">
+											<div class="photo">
+												<img src="assets/images/testimonial/p2.jpg" alt="">
+											</div>
+											<div class="d-flex justify-content-between flex-fill">
+												<div>
+													<h4>William George</h4>
+													<span>Designation</span>
+													<div class="rating mb-2">
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-half"></i></span>
+													</div>
+												</div>
+												<div>
+													<i class="bi bi-chat-right-quote-fill"></i>
+												</div>
+											</div>
+										</div>
+										<hr>
+										<p> "I've been a loyal customer of "MyShop" for years now, and I can't recommend them enough! Their seamless shopping experience, vast product selection.Plus, their customer service team is top-notch, always ready to assist with any inquiries or concerns. If you're looking for a hassle-free online shopping experience, look no further than MyShop  a try—you won't regret it!" - William George</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Testimonial End-->
+					</div>
+				</div>
+			</div>
+			<!-- Main Content End -->
+		</div>
+	</div>
+
+
+	<!-- Shopping Cart Offcanvas Start -->
+
+	<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+		<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		</div>
+		<hr>
+		<div class="offcanvas-body">
+
+			<div class="d-flex gap-3 mb-3">
+				<div class="product-photo">
+					<img src="assets/images/women/casual/cs-14.jpeg" alt="">
+				</div>
+				<div class="d-flex justify-content-between flex-fill">
+					<div>
+						<a href="#" class="d-block">HUSH PUPPIES</a>
+						<span class="d-block"> MRP 1200 TK</span>
+					</div>
+					<div>
+						<button type="button"><i class="bi bi-x-circle-fill"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="d-flex gap-3 mb-3">
+				<div class="product-photo">
+					<img src="assets/images/women/all/a8.jpg" alt="">
+				</div>
+				<div class="d-flex justify-content-between flex-fill">
+					<div>
+						<a href="#" class="d-block">FLOATZ</a>
+						<span class="d-block">MRP 980 TK</span>
+					</div>
+					<div>
+						<button type="button"><i class="bi bi-x-circle-fill"></i></button>
+					</div>
+				</div>
+			</div>
+
+			<div class="d-flex gap-3 mb-3">
+				<div class="product-photo">
+					<img src="assets/images/women/high hill/h10.jpeg" alt="">
+				</div>
+				<div class="d-flex justify-content-between flex-fill">
+					<div>
+						<a href="#" class="d-block">POWER </a>
+						<span class="d-block">MRP 1360 TK</span>
+					</div>
+					<div>
+						<button type="button"><i class="bi bi-x-circle-fill"></i></button>
+					</div>
+				</div>
+			</div>
+
+			<div class="subTotal d-flex justify-content-between mt-4">
+				<h5>Subtotal:</h5>
+				<h5>3540 Tk</h5>
+			</div>
+
+
+			<div class="btn-area w-100 text-end mt-4">
+				<a href="cart.html" class="btn btn-primary rounded-0 mx-2">View Cart</a>
+				<a href="checkout.html" class="btn btn-dark rounded-0">Checkout</a>
+			</div>
+
+		</div>
+	</div>
+	<!-- Shopping Cart Offcanvas End -->
+
+
+
+	<!-- Footer Start -->
+	<footer>
+		<div class="row g-4">
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Address</h5>
+				</div>
+				<ul type="none">
+					<li>
+						<span><i class="bi bi-geo-alt"></i></span>
+						<span>Chuadanga Sadar, Chuadanga, Bangladesh.</span>
+					</li>
+					<li>
+						<span><i class="bi bi-envelope"></i></span>
+						<span>boishakhimisti@gmail.com</span>
+					</li>
+				</ul>
+				<div class="social-link d-flex gap-2 mt-4">
+					<div class="icon" id="facebook">
+						<a href="#"><i class="bi bi-facebook"></i></a>
+					</div>
+					<div class="icon" id="youtube">
+						<a href="#"><i class="bi bi-youtube"></i></a>
+					</div>
+					<div class="icon" id="instagram">
+						<a href="#"><i class="bi bi-instagram"></i></a>
+					</div>
+					<div class="icon" id="pinterest">
+						<a href="#"><i class="bi bi-pinterest"></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Categories</h5>
+				</div>
+				<ul type="none">
+					<li>
+						<a href="#">Women</a>
+					</li>
+					<li>
+						<a href="#">Men</a>
+					</li>
+					<li>
+						<a href="#">Kids</a>
+					</li>
+					<li>
+						<a href="#">New</a>
+					</li>
+					<li>
+						<a href="#">Apparels</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Information</h5>
+				</div>
+				<ul type="none">
+					<li>
+						<a href="#">About us</a>
+					</li>
+					<li>
+						<a href="#">Contact us</a>
+					</li>
+					<li>
+						<a href="#">Terms & Conditions</a>
+					</li>
+					<li>
+						<a href="#">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="#">SignIn</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Payment Way</h5>
+				</div>
+				<span>Accepted Payment Methods
+
+    >>Credit Cards: We accept Visa, Mastercard, American Express, and Discover.
+    <br>
+
+    >>Digital Wallets: Conveniently pay with popular digital wallets such as Apple Pay, Google Pay, and PayPal.
+    <br>
+
+    >>Bank Transfers: Securely transfer funds directly from your bank account.</span>
+				<div class="row g-4 mt-4">
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/visa.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/mastercard.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/bKash.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/nagad.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="copyright text-center mt-4">
+				<span>&copy; 2024 MyEcommerce | All rights reserved.</span>
+				<br>
+				<span>Developed By Boishakhi Bosu</span>
+			</div>
+
+
+		</div>
+	</footer>
+	<!-- Footer End -->
+	
+
+
+
+
+	<!-- Bootstrap JS -->
+	<script src="assets/js/bootstrap.bundle.js"></script>
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- Slick JS -->
+	<script src="assets/slick/slick.min.js"></script>
+	<!-- Custom JS -->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
